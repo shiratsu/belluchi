@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* 
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+-->
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="30.0dip"
+    android:background="#FFFFFF"
+    >
+
+    <Row>
+        <Key android:codes="113" android:keyIcon="@drawable/q" android:iconPreview="@drawable/q" android:keyEdgeFlags="left"/>
+        <Key android:codes="119" android:keyIcon="@drawable/w" android:iconPreview="@drawable/w"/>
+        <Key android:codes="101" android:keyIcon="@drawable/e" android:iconPreview="@drawable/e"/>
+        <Key android:codes="114" android:keyIcon="@drawable/r" android:iconPreview="@drawable/r"/>
+        <Key android:codes="116" android:keyIcon="@drawable/t" android:iconPreview="@drawable/t"/>
+        <Key android:codes="121" android:keyIcon="@drawable/y" android:iconPreview="@drawable/y" />
+        <Key android:codes="117" android:keyIcon="@drawable/u" android:iconPreview="@drawable/u" />
+        <Key android:codes="105" android:keyIcon="@drawable/i" android:iconPreview="@drawable/i"/>
+        <Key android:codes="111" android:keyIcon="@drawable/o" android:iconPreview="@drawable/o" />
+        <Key android:codes="112" android:keyIcon="@drawable/p" android:iconPreview="@drawable/p" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="97" android:keyIcon="@drawable/a" android:iconPreview="@drawable/a"
+                android:keyEdgeFlags="left"/>
+        <Key android:codes="115" android:keyIcon="@drawable/s" android:iconPreview="@drawable/s"/>
+        <Key android:codes="100" android:keyIcon="@drawable/d" android:iconPreview="@drawable/d" />
+        <Key android:codes="102" android:keyIcon="@drawable/f" android:iconPreview="@drawable/f" />
+        <Key android:codes="103" android:keyIcon="@drawable/g" android:iconPreview="@drawable/g"/>
+        <Key android:codes="104" android:keyIcon="@drawable/h" android:iconPreview="@drawable/h"/>
+        <Key android:codes="106" android:keyIcon="@drawable/j" android:iconPreview="@drawable/j" />
+        <Key android:codes="107" android:keyIcon="@drawable/k" android:iconPreview="@drawable/k" />
+        <Key android:codes="108" android:keyIcon="@drawable/l" android:iconPreview="@drawable/l" />
+        <Key android:codes="150"  android:keyIcon="@drawable/l_emoji" android:iconPreview="@drawable/l_emoji" android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row>
+        <Key android:codes="-2" android:keyIcon="@drawable/l_mode1" android:iconPreview="@drawable/l_mode1" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left"/>
+        <Key android:codes="122" android:keyIcon="@drawable/z" android:iconPreview="@drawable/z" />
+        <Key android:codes="120" android:keyIcon="@drawable/x" android:iconPreview="@drawable/x" />
+        <Key android:codes="99" android:keyIcon="@drawable/c" android:iconPreview="@drawable/c" />
+        <Key android:codes="118" android:keyIcon="@drawable/v" android:iconPreview="@drawable/v" />
+        <Key android:codes="98" android:keyIcon="@drawable/b" android:iconPreview="@drawable/b" />
+        <Key android:codes="110" android:keyIcon="@drawable/n" android:iconPreview="@drawable/n" />
+        <Key android:codes="109" android:keyIcon="@drawable/m" android:iconPreview="@drawable/m" />
+        <Key android:codes="46,44" android:keyIcon="@drawable/l_dod" android:iconPreview="@drawable/l_dod" />
+        <Key android:codes="33,63" android:keyIcon="@drawable/l_hatena" android:iconPreview="@drawable/l_hatena" android:keyEdgeFlags="right"  />
+        
+    </Row>
+
+    <Row android:rowEdgeFlags="bottom">
+                
+        <Key android:codes="-5" android:keyIcon="@drawable/l_del" android:iconPreview="@drawable/l_del" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left" android:isRepeatable="true"/>
+        <Key android:codes="-215" android:keyIcon="@drawable/l_space" android:iconPreview="@drawable/l_space" android:isRepeatable="true"/>
+        <Key android:codes="49,50,51,52,53,54,55,56,57,48" android:keyIcon="@drawable/l_suuji" android:iconPreview="@drawable/l_suuji" />
+        <Key android:codes="92" android:keyIcon="@drawable/l_hidari" android:iconPreview="@drawable/l_hidari" android:isRepeatable="true" />
+        <Key android:codes="-111" android:keyIcon="@drawable/l_ue" android:iconPreview="@drawable/l_ue" android:isRepeatable="true" />
+        <Key android:codes="-112" android:keyIcon="@drawable/l_shita" android:iconPreview="@drawable/l_shita" android:isRepeatable="true" />
+        <Key android:codes="93" android:keyIcon="@drawable/l_migi" android:iconPreview="@drawable/l_migi" android:isRepeatable="true" />
+        <Key android:codes="95" android:keyIcon="@drawable/l_aa" android:iconPreview="@drawable/l_aa" />
+        <Key android:codes="-99" android:keyIcon="@drawable/l_kaigyou" android:iconPreview="@drawable/l_kaigyou" />
+        <Key android:codes="-100" android:keyIcon="@drawable/l_enter" android:iconPreview="@drawable/l_enter" android:keyEdgeFlags="right" android:isRepeatable="true" />
+    </Row>
+</Keyboard>

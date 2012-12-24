@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* 
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+-->
+
+
+<resources>
+    <dimen name="key_height">50.0dip</dimen>
+    <dimen name="key_height_landscape">45.0dip</dimen>
+    <dimen name="candidate_font_size">20.0sp</dimen>
+    <dimen name="candidate_delete_word_size">20.0px</dimen>
+    <dimen name="candidate_delete_word_size_landscape">20.0px</dimen>
+    <dimen name="bubble_pointer_offset">22.0dip</dimen>
+    
+    
+    <dimen name="key_half_height">33.0dip</dimen>
+    <dimen name="key_tall_height">60.0dip</dimen>
+    <dimen name="key_vertical_gap">3.0dip</dimen>
+    <dimen name="key_text_size">21.0sp</dimen>
+    <dimen name="key_label_text_size">14.0sp</dimen>
+    <dimen name="candidate_strip_height">45.0dip</dimen>
+    <dimen name="candidate_font_height">16.0sp</dimen>
+    <dimen name="candidate_vertical_padding">4.0sp</dimen>
+    <dimen name="extension_keyboard_popup_offset">20.0dip</dimen>
+    <dimen name="candidate_strip_fading_edge_length">63.0dip</dimen>
+    <dimen name="candidate_min_touchable_width">0.30000007in</dimen>
+    <dimen name="key_hysteresis_distance">10.0dip</dimen>
+    <dimen name="key_preview_height">80.0sp</dimen>
+    <dimen name="key_preview_offset">0.0dip</dimen>
+    <dimen name="keyboard_vertical_correction">-0.049999952in</dimen>
+    <dimen name="key_preview_text_size_large">28.0sp</dimen>
+    <dimen name="key_bottom_gap">2.0dip</dimen>
+    <dimen name="mini_keyboard_vertical_correction">-30.0dip</dimen>
+    <dimen name="keyboard_bottom_padding">4.0dip</dimen>
+    <dimen name="mini_keyboard_slide_allowance">80.0dip</dimen>
+    <dimen name="key_corner_radius">3.0dip</dimen>
+    <dimen name="key_top_inset">3.0dip</dimen>
+    <dimen name="key_bottom_inset">3.0dip</dimen>
+    <dimen name="key_right_inset">2.5dip</dimen>
+    <dimen name="key_left_inset">2.5dip</dimen>
+</resources>

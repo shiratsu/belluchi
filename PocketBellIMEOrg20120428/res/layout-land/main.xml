@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:background="@drawable/back">
+  <ImageView android:layout_alignParentLeft="true" 
+      		 android:id="@+id/moji" 
+      		   android:layout_width="wrap_content" 
+      		   android:layout_height="wrap_content"
+      		   android:layout_marginLeft="0px"
+      		   android:layout_marginTop="0px"
+      		   android:src="@drawable/back_top"
+      		   >
+      		   </ImageView>
+  <Button android:background="@drawable/back_button" 
+		android:id="@+id/top" 
+		android:layout_width="170dip" 
+		android:layout_height="45dip" 
+		android:layout_marginTop="20px"
+		android:layout_marginLeft="20px"
+		android:layout_below="@+id/moji"
+		></Button>
+  <TextView 
+	  android:text="入力モードを設定します。\n設定画面を開いて（belluchi）にチェックを\n入れてください。"
+	  android:textSize="14sp"
+	  android:textColor="#FFFFFF"
+	  android:id="@+id/explain" 
+	  android:layout_width="wrap_content" 
+	  android:layout_height="wrap_content"
+	  android:layout_marginTop="5px"
+	  android:layout_marginLeft="20px"
+	  android:layout_below="@+id/top"
+	  ></TextView>
+  <EditText
+      android:layout_height="wrap_content"
+      android:id="@+id/text"
+      android:layout_width="200dip"
+      android:layout_marginTop="5px"
+	  android:layout_marginLeft="20px"
+      android:layout_below="@+id/explain" ></EditText>
+  <TextView 
+	  android:text="入力切替\n1.テキストボックスをクリック\n2.入力ボックスを長押し\n3.入力方法を選択\n4.belluchiを選択"
+	  android:textSize="14sp"
+	  android:textColor="#FFFFFF"
+	  android:id="@+id/title" 
+	  android:layout_width="wrap_content" 
+	  android:layout_height="wrap_content"
+	  android:layout_marginTop="5px"
+	  android:layout_marginLeft="20px"
+	  android:layout_below="@+id/text"
+	  ></TextView>
+</RelativeLayout>
